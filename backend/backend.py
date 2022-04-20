@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
-import backendConstants as bckendC
-import backendErrors as Errors
+import backend.backendConstants as bckendC
+import backend.backendErrors as Errors
 import platform
 import random
 import json
@@ -110,7 +110,6 @@ class Backend:
         self.addedEvents = []
         self.saved = False
         self.configFile()
-        #self.events = {date: [Event()]}
         self.parseFile()
 
     #just made for linux and windows

@@ -1,6 +1,6 @@
 from PySide6 import QtCore, QtWidgets, QtGui
-from backend import Backend
-from backendErrors import *
+from backend.backend import Backend
+from backend.backendErrors import *
 import frontendConstants as cnts
 import sys
 

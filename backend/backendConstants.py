@@ -2,7 +2,7 @@
 PLATFORM = "Linux-5.15.8-76051508-generic-x86_64-with-glibc2.34"
 PATHFILEDIR = "/tmp/events"
 ############
-#Don´t change const name nor relative position to each other
+#Don´t change const name nor relative position (to each other)
 PATHFILE = "currentEvents.json"
 PATHFILE2 = "currentEvents2.json"
 #############
@@ -12,7 +12,7 @@ RANDOMMAX = 10000000000000000
 #Syntax
 COMMENTCARACTER = ";"
 STARTIDS = "?"
-#MULTYLINE = "*" 
+#MULTYLINE = "*"  to be implemented in the future
 DIVIDER = "-"
 
 #Event Const

@@ -6,8 +6,6 @@ python code that creates a schedule, currently made to control a portuguese atto
 
 The overall system is made up of several files. The main one is the _frontend_ and will be the one called in order to run the application. The folder icons contains all the icons used in the project.
 
-See the [Project Statement](https://github.com/tecnico-distsys/Turmas) or a complete domain and system description.
-
 ### Prerequisites
 
 The Project is configured with python 3.9.7 (which is only compatible with pyside6 >= 6.2.2.1)
@@ -26,6 +24,8 @@ Run application:
 ```s
 python3 frontend.py
 ```
+
+In order to make the application persistent the variable _PATHFILEDIR_ must be changed to a permanent location
 
 ## Built With
 
