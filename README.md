@@ -1,4 +1,4 @@
-# localSchedule
+# localScheduler
 
 python code that creates a schedule, currently made to control a portuguese attorney schedule
 
